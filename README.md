@@ -1,7 +1,9 @@
 N0-1S Player
 
 Español · English
+Aviso en macOS: la app no está firmada con un certificado de Apple, así que al abrirla por primera vez puede aparecer un aviso de desarrollador no identificado. Para abrirla: clic derecho sobre la app → Abrir, o en Ajustes del Sistema → Privacidad y seguridad → Abrir de todos modos.
 
+Aviso en Windows: por la misma razón, SmartScreen puede avisar. Pulsa Más información → Ejecutar de todas formas.
 Español
 
 N0-1S Player es un reproductor de música minimalista con visuales relajantes, creado por N0-1S Music (Not Only One Side).
