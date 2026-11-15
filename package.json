@@ -1,0 +1,37 @@
+{
+  "name": "n01s-player",
+  "version": "1.0.0",
+  "description": "N0-1S Player",
+  "main": "main.js",
+  "author": "N0-1S",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "build:mac": "electron-builder --mac"
+  },
+  "devDependencies": {
+    "electron": "^36.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.n01s.player",
+    "productName": "N0-1S Player",
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "icon.ico",
+      "icon.png"
+    ],
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "icon": "icon.png",
+      "category": "public.app-category.music"
+    }
+  }
+}
